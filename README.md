@@ -27,6 +27,6 @@ npm run build
 
 ## All about that...
 
-The code is a Frankestain of a template I used to speed up this development and my imagination, I would like to thank Labubus for the inspiration.  
+I would like to thank Labubus for the inspiration.  
 
 
