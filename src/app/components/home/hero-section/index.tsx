@@ -9,10 +9,10 @@ const index = () => {
           <div className="flex flex-col gap-4 md:gap-7 max-w-2xl">
             <div>
               <div className="flex items-center gap-8">
-                <h1>I'm Sruthi</h1>
+                <h1>This is  KDW</h1>
                 <div className="wave">
                   <Image
-                    src={getImgPath("/images/home/banner/wave-icon.svg")}
+                    src={getImgPath("/images/home/banner/crown.png")}
                     alt="wave-icon"
                     width={62}
                     height={62}
@@ -20,13 +20,9 @@ const index = () => {
                   />
                 </div>
               </div>
-              <h1>UI/UX Designer</h1>
+              <h1>Software Engineer</h1>
             </div>
-            <p className="text-secondary font-normal max-w-md xl:max-w-xl">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. variations of passages of Lorem Ipsum available, but the
-              majority have suffered alteration
-            </p>
+
           </div>
           <Image
             src={getImgPath("/images/home/banner/banner-img.png")}
@@ -39,7 +35,7 @@ const index = () => {
       </div>
       <div className="absolute right-0 top-0 hidden h-auto w-1/2 lg:block 2xl:h-171.5 2xl:w-187.5">
         <Image
-          src={getImgPath("/images/home/banner/banner-img.png")}
+          src={getImgPath("")}
           alt="banner-img"
           width={685}
           height={650}

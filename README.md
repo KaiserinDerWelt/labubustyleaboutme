@@ -1,10 +1,6 @@
-# Resume - Free Next.js Resume Website Template
-#### Preview
-
- - [Demo](https://themewagon.github.io/Resume-Nextjs/)
-
-#### Download
- - [Download from ThemeWagon](https://themewagon.com/themes/resume-nextjs/)
+# Kaiserin Der Welt - Software Engineer
+## This is all about
+The following web development is my new GitHub Website to introduce myself. This is Next.js + Twailind Css based development.
 
 
 ## Getting Started
@@ -29,18 +25,8 @@ Build for production:
 npm run build
 ```
 
-## Author
+## All about that...
 
-Design and code are written by the getnextjstemplates design & development team.  
-
-
-## License
-
- - Design and Code is Copyright &copy; [getnextjstemplates](https://getnextjstemplates.com/)
- - Licensed under [MIT]
- - Distributed by [ThemeWagon](https://themewagon.com)
-
-
-
+I would like to thank Labubus for the inspiration.  
 
 
