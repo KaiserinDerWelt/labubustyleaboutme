@@ -205,7 +205,7 @@ const index = ()=>{
                                                     alt: "wave-icon",
                                                     width: 62,
                                                     height: 62,
-                                                    className: ""
+                                                    className: "crown-icon"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/components/home/hero-section/index.tsx",
                                                     lineNumber: 14,
@@ -265,7 +265,7 @@ const index = ()=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute right-0 top-0 hidden h-auto w-1/2 lg:block 2xl:h-171.5 2xl:w-187.5",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                    src: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$image$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getImgPath"])(""),
+                    src: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$utils$2f$image$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getImgPath"])("/images/home/banner/GeminiGremlin.png"),
                     alt: "banner-img",
                     width: 685,
                     height: 650,

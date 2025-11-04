@@ -16,7 +16,7 @@ const index = () => {
                     alt="wave-icon"
                     width={62}
                     height={62}
-                    className=""
+                    className="crown-icon"
                   />
                 </div>
               </div>
@@ -35,7 +35,7 @@ const index = () => {
       </div>
       <div className="absolute right-0 top-0 hidden h-auto w-1/2 lg:block 2xl:h-171.5 2xl:w-187.5">
         <Image
-          src={getImgPath("")}
+          src={getImgPath("/images/home/banner/GeminiGremlin.png")}
           alt="banner-img"
           width={685}
           height={650}
