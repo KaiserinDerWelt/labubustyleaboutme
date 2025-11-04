@@ -9,10 +9,10 @@ const index = () => {
           <div className="flex flex-col gap-4 md:gap-7 max-w-2xl">
             <div>
               <div className="flex items-center gap-8">
-                <h1>I'm Sruthi</h1>
+                <h1>This is  KDW</h1>
                 <div className="wave">
                   <Image
-                    src={getImgPath("/images/home/banner/wave-icon.svg")}
+                    src={getImgPath("/images/home/banner/crown.png")}
                     alt="wave-icon"
                     width={62}
                     height={62}
@@ -20,11 +20,9 @@ const index = () => {
                   />
                 </div>
               </div>
-              <h1>UI/UX Designer</h1>
+              <h1>Software Engineer</h1>
             </div>
-            <p className="text-secondary font-normal max-w-md xl:max-w-xl">
-              XXXXXX
-            </p>
+
           </div>
           <Image
             src={getImgPath("/images/home/banner/banner-img.png")}
