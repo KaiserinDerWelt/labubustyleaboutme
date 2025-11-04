@@ -37,7 +37,6 @@
     --color-white: #fff;
     --spacing: .25rem;
     --container-md: 28rem;
-    --container-xl: 36rem;
     --container-2xl: 42rem;
     --text-sm: .875rem;
     --text-sm--line-height: calc(1.25 / .875);
@@ -74,7 +73,6 @@
     --color-primary: #fe4300;
     --color-secondary: #868686;
     --color-softGray: #f0f0f0;
-    --color-mistGray: #d7dcdd;
     --color-gray: #c0d8e0;
   }
 }
@@ -582,10 +580,6 @@
     max-width: var(--container-2xl);
   }
 
-  .max-w-md {
-    max-width: var(--container-md);
-  }
-
   .min-w-\[24px\] {
     min-width: 24px;
   }
@@ -622,10 +616,6 @@
 
   .grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .flex-col {
@@ -682,10 +672,6 @@
 
   .gap-3 {
     gap: calc(var(--spacing) * 3);
-  }
-
-  .gap-3\.5 {
-    gap: calc(var(--spacing) * 3.5);
   }
 
   .gap-4 {
@@ -761,10 +747,6 @@
     border-color: var(--color-black);
   }
 
-  .border-mistGray {
-    border-color: var(--color-mistGray);
-  }
-
   .border-primary {
     border-color: var(--color-primary);
   }
@@ -837,10 +819,6 @@
 
   .py-16 {
     padding-block: calc(var(--spacing) * 16);
-  }
-
-  .pt-8 {
-    padding-top: calc(var(--spacing) * 8);
   }
 
   .pt-10 {
@@ -1147,20 +1125,8 @@
   }
 
   @media (width >= 48rem) {
-    .md\:px-5 {
-      padding-inline: calc(var(--spacing) * 5);
-    }
-  }
-
-  @media (width >= 48rem) {
     .md\:px-7 {
       padding-inline: calc(var(--spacing) * 7);
-    }
-  }
-
-  @media (width >= 48rem) {
-    .md\:py-3\.5 {
-      padding-block: calc(var(--spacing) * 3.5);
     }
   }
 
@@ -1201,13 +1167,6 @@
     }
   }
 
-  @media (width >= 48rem) {
-    .md\:text-lg {
-      font-size: var(--text-lg);
-      line-height: var(--tw-leading, var(--text-lg--line-height));
-    }
-  }
-
   @media (width >= 64rem) {
     .lg\:block {
       display: block;
@@ -1223,12 +1182,6 @@
   @media (width >= 64rem) {
     .lg\:hidden {
       display: none;
-    }
-  }
-
-  @media (width >= 64rem) {
-    .lg\:max-w-2xl {
-      max-width: var(--container-2xl);
     }
   }
 
@@ -1282,12 +1235,6 @@
   }
 
   @media (width >= 80rem) {
-    .xl\:max-w-xl {
-      max-width: var(--container-xl);
-    }
-  }
-
-  @media (width >= 80rem) {
     .xl\:gap-2 {
       gap: calc(var(--spacing) * 2);
     }
@@ -1330,20 +1277,8 @@
   }
 
   @media (width >= 80rem) {
-    .xl\:py-16 {
-      padding-block: calc(var(--spacing) * 16);
-    }
-  }
-
-  @media (width >= 80rem) {
     .xl\:py-32 {
       padding-block: calc(var(--spacing) * 32);
-    }
-  }
-
-  @media (width >= 80rem) {
-    .xl\:pt-14 {
-      padding-top: calc(var(--spacing) * 14);
     }
   }
 

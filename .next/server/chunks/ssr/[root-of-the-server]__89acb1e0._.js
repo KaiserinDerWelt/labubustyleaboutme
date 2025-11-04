@@ -82,27 +82,21 @@ var { g: global, __dirname } = __turbopack_context__;
     "getImgPath": (()=>getImgPath)
 });
 const getImgPath = (path)=>{
-    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
-    if (!basePath) {
+    const basePath = ("TURBOPACK compile-time value", "") || "";
+    if ("TURBOPACK compile-time truthy", 1) {
         return path;
     }
-    if (path.startsWith(basePath)) {
-        return path;
-    }
-    return `${basePath}${path}`;
+    "TURBOPACK unreachable";
 };
 const getDataPath = (path)=>{
     if ("TURBOPACK compile-time falsy", 0) {
         "TURBOPACK unreachable";
     }
-    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
-    if (!basePath) {
+    const basePath = ("TURBOPACK compile-time value", "") || "";
+    if ("TURBOPACK compile-time truthy", 1) {
         return path;
     }
-    if (path.startsWith(basePath)) {
-        return path;
-    }
-    return `${basePath}${path}`;
+    "TURBOPACK unreachable";
 };
 }}),
 "[project]/src/app/components/layout/logo/index.tsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
@@ -2816,7 +2810,7 @@ function getImageProps(imgProps) {
     const { props } = (0, _getimgprops.getImgProps)(imgProps, {
         defaultLoader: _imageloader.default,
         // This is replaced by webpack define plugin
-        imgConf: ("TURBOPACK compile-time value", JSON.parse('{"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/_next/image","loader":"default","dangerouslyAllowSVG":false,"unoptimized":false,"domains":[],"remotePatterns":[]}'))
+        imgConf: ("TURBOPACK compile-time value", JSON.parse('{"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/_next/image/","loader":"default","dangerouslyAllowSVG":false,"unoptimized":true,"domains":[],"remotePatterns":[],"output":"export"}'))
     });
     // Normally we don't care about undefined props because we pass to JSX,
     // but this exported function could be used by the end user for anything

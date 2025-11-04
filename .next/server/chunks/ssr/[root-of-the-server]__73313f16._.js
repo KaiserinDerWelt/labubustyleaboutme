@@ -21,27 +21,21 @@ var { g: global, __dirname } = __turbopack_context__;
     "getImgPath": (()=>getImgPath)
 });
 const getImgPath = (path)=>{
-    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
-    if (!basePath) {
+    const basePath = ("TURBOPACK compile-time value", "") || "";
+    if ("TURBOPACK compile-time truthy", 1) {
         return path;
     }
-    if (path.startsWith(basePath)) {
-        return path;
-    }
-    return `${basePath}${path}`;
+    "TURBOPACK unreachable";
 };
 const getDataPath = (path)=>{
     if ("TURBOPACK compile-time falsy", 0) {
         "TURBOPACK unreachable";
     }
-    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
-    if (!basePath) {
+    const basePath = ("TURBOPACK compile-time value", "") || "";
+    if ("TURBOPACK compile-time truthy", 1) {
         return path;
     }
-    if (path.startsWith(basePath)) {
-        return path;
-    }
-    return `${basePath}${path}`;
+    "TURBOPACK unreachable";
 };
 }}),
 "[externals]/next/dist/server/app-render/work-async-storage.external.js [external] (next/dist/server/app-render/work-async-storage.external.js, cjs)": (function(__turbopack_context__) {
