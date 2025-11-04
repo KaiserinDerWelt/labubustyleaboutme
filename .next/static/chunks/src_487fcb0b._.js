@@ -130,7 +130,7 @@ const Header = ()=>{
                             className: "relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 md:py-5 px-4 sm:px-5 md:px-7 border border-primary rounded-full group",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "relative z-10 text-xl font-medium text-black group-hover:text-white transition-colors duration-300",
-                                children: "Download PDF Resume"
+                                children: "XXX"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/layout/header/index.tsx",
                                 lineNumber: 24,
