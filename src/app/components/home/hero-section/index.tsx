@@ -16,18 +16,18 @@ const index = () => {
                     alt="wave-icon"
                     width={62}
                     height={62}
-                    className=""
+                    className="crown-icon"
                   />
                 </div>
               </div>
-              <h1>Software Engineer</h1>
+              <h2>Software Engineer</h2>
             </div>
 
           </div>
           <Image
-            src={getImgPath("/images/home/banner/banner-img.png")}
+            src={getImgPath("/images/home/banner/Berliner.png")}
             alt="banner-img"
-            width={685}
+            width={640}
             height={650}
             className="block lg:hidden"
           />
@@ -35,9 +35,9 @@ const index = () => {
       </div>
       <div className="absolute right-0 top-0 hidden h-auto w-1/2 lg:block 2xl:h-171.5 2xl:w-187.5">
         <Image
-          src={getImgPath("")}
+          src={getImgPath("/images/home/banner/Berliner.png")}
           alt="banner-img"
-          width={685}
+          width={640}
           height={650}
           className=" absolute right-0 top-0 z-1"
         />

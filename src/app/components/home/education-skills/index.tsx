@@ -27,11 +27,11 @@ const EducationSkills = () => {
         <div className="container relative z-10">
           <Image
             src={getImgPath(
-              "/images/home/education-skill/edu-skill-vector.svg"
+              "/images/home/education-skill/edu-skill-vector.png"
             )}
             alt="vector"
-            width={260}
-            height={170}
+            width={600}
+            height={550}
             className="no-print absolute top-0 left-0 transform -translate-y-1/2"
           />
           <div className="relative z-10 py-16 md:py-32">
