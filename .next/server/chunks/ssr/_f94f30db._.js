@@ -67,7 +67,7 @@ const AboutMe = ()=>{
                                             lineNumber: 12,
                                             columnNumber: 361
                                         }, this),
-                                        "Fluent in English, German, and Spanish, and a Blue Card candidate in Germany,I am actively seeking a career opportunity to relocate and grow professionally in Germany. I specialize in building innovative software architectures, critical infrastructure, and intelligent systems that evolve with market needs."
+                                        "Fluent in English, German, and Spanish, I am actively seeking a career opportunity to grow professionally in Germany. I specialize in building innovative software architectures, critical infrastructure, and intelligent systems that evolve with market needs."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/home/about-me/index.tsx",
