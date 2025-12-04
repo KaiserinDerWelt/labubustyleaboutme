@@ -8,7 +8,8 @@ const AboutMe = () => {
               <h2>About Me</h2>
             </div>
             <div className="pt-10 xl:pt-16 flex gap-10 items-center justify-between">
-              <p>TEXT HERE</p>
+              <h5 className="text-black">This is Mariana (KaiserinDerWelt), a Full Stack Software Engineer with 9+ years of experience in .NET, front-end frameworks, and AI agent development. I’ve led international projects in Germany, the United States, and Mexico City, delivering scalable, cost-efficient solutions with strong communication and discipline. <br></br>
+Fluent in English, German, and Spanish, and a Blue Card candidate in Germany,I am actively seeking a career opportunity to relocate and grow professionally in Germany. I specialize in building innovative software architectures, critical infrastructure, and intelligent systems that evolve with market needs.</h5>
             </div>
           </div>
         </div>

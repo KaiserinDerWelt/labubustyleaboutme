@@ -645,7 +645,7 @@
     flex: 1;
   }
 
-  .flex-grow {
+  .flex-grow, .grow {
     flex-grow: 1;
   }
 
