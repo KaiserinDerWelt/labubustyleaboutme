@@ -12,7 +12,7 @@ const Footer = () => {
             </div>
             <div className="flex-grow h-px bg-black" />
           </div>
-          <p className="text-secondary">
+          <p className="text-secondary"> © 2025 Kaiserin Der Welt.
             <a
               rel="noopener noreferrer"
               className="text-primary hover:underline"

@@ -2,48 +2,54 @@
   "educationData": {
     "education": [
       {
-        "title": "X",
-        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form Koramangala collage."
+        "title": "Software Engineer",
+        "description": "Universidad Abierta y a Distancia de México (UnADM) KMK Validated in Germany"
       },
       {
-        "title": "X",
-        "description": "Combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable."
+        "title": "JavaScript React Developer",
+        "description": "Bachelor’s level degree in Computer Software Development EU validated"
       },
       {
-        "title": "X",
-        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration."
+        "title": "Master's in Information Security",
+        "description": "Universidad International de la Rioja - KMK Validated in Germany"
       }
     ],
     "skills": [
       {
-        "name": "Figma",
-        "icon": "",
-        "rating": 5
+        "name": "Claude CLI -AI Agents",
+        "icon": "/images/home/education-skill/ai.png"
       },
       {
-        "name": "Photoshop",
-        "icon": "",
-        "rating": 5
+        "name": "Javascript",
+        "icon": "/images/home/education-skill/js.png"
       },
       {
-        "name": "Sketch",
-        "icon": "",
-        "rating": 4
+        "name": "React - Next.js - TailwindCSS",
+        "icon": "/images/home/education-skill/physics.png"
       },
       {
-        "name": "Adobe XD",
-        "icon": "",
-        "rating": 4
+        "name": "HTML5 & CSS3",
+        "icon": "/images/home/education-skill/html.png"
       },
       {
-        "name": "Framer",
-        "icon": "",
-        "rating": 5
+        "name": "Azure Cloud Services- SQL",
+        "icon": "/images/home/education-skill/google.png"
       },
       {
-        "name": "Invasion",
-        "icon": "",
-        "rating": 3
+        "name": "SCRUM & Agile Methodologies",
+        "icon": "/images/home/education-skill/scrum.png"
+      },
+      {
+        "name": "GIT",
+        "icon": "/images/home/education-skill/git.png"
+      },
+      {
+        "name": "EN-DE-SP",
+        "icon": "/images/home/education-skill/google.png"
+      },
+      {
+        "name": ".NET Core & C#",
+        "icon": "/images/home/education-skill/net.png"
       }
     ]
   }
