@@ -1,7 +1,8 @@
 const AboutMe = () => {
   return (
     <section>
-      <div className="relative bg-yellow-300 py-10 md:py-32">
+      <br></br>
+      <div className="relative  py-10 md:py-32">
         <div className="relative z-10">
           <div className="container">
             <div className="flex items-center justify-between gap-2 border-b border-black pb-7">
