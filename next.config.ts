@@ -4,7 +4,7 @@ const basePath = process.env.NODE_ENV === "production" ? "/Resume-Nextjs" : "";
 const isProd = process.env.NODE_ENV === 'production';
 const nextConfig: NextConfig = {
   output: "export",
-  basePath,
+   basePath: "/IchBinDieKaiserin",
   assetPrefix: isProd ? '/KaiserinDerWelt.github.io/' : '',
   images: {
     unoptimized: true,
@@ -20,6 +20,6 @@ const nextConfig: NextConfig = {
 
 
 
-export default nextConfig;
+module.exports = nextConfig;
 
 
